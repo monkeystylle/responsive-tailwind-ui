@@ -1,7 +1,4 @@
 'use client';
-
-import Plus from '../../public/assets/Plus.svg';
-import Image from 'next/image';
 import FaqAccordion from './FaqAccordion';
 
 type Props = {};
