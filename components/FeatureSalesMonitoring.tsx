@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import Feature1 from '../../public/assets/feature-1.svg';
-import BlueButton from '../../public/assets/blue-button.svg';
+import Feature1 from '../public/assets/feature-1.svg';
+import BlueButton from '../public/assets/blue-button.svg';
 import FeatureListItem from './FeatureListItem';
 
 type Props = {};

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Check from '../../public/assets/check.svg';
+import Check from '../public/assets/check.svg';
 
 type Props = {
   text: string;

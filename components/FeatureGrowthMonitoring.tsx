@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import Feature3 from '../../public/assets/feature-3.svg';
-import PinkButton from '../../public/assets/pink-button.svg';
+import Feature3 from '../public/assets/feature-3.svg';
+import PinkButton from '../public/assets/pink-button.svg';
 
 type Props = {};
 
