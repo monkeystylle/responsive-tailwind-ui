@@ -1,7 +1,11 @@
 import React from 'react';
 
-import Plus from '../../public/assets/Plus.svg';
-import Image from 'next/image';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
 
 type Props = {};
 
@@ -34,7 +38,24 @@ const items = [
 ];
 
 const FaqAccordion = (props: Props) => {
-  return <h1>hjelkl</h1>;
+  return (
+    <Accordion type="single" collapsible className="flex flex-col gap-y-4">
+      {items.map((item, index) => (
+        <AccordionItem
+          className="bg-[#E3F1FF] px-[16px] rounded-[8px]"
+          key={index}
+          value={`item-${index + 1}`}
+        >
+          <AccordionTrigger className="text-left font-medium text-[#172026] lg:text-[18px]">
+            {item.question}
+          </AccordionTrigger>
+          <AccordionContent className=" text-[#36485C]">
+            {item.answer}
+          </AccordionContent>
+        </AccordionItem>
+      ))}
+    </Accordion>
+  );
 };
 
 export default FaqAccordion;
