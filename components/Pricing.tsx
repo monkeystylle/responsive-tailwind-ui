@@ -17,7 +17,7 @@ const Pricing = (props: Props) => {
           No hidden fees!
         </p>
 
-        <div className="flex flex-col gap-y-6 gap-x-[40px] lg:flex-row">
+        <div className="flex flex-col xl:flex-row  gap-y-6 gap-x-[40px] ">
           <PricingFreeTrial />
           <PricingBusiness />
           <PricingEnterprise />

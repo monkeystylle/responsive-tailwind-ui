@@ -30,7 +30,7 @@ const FeatureSalesMonitoring = (props: Props) => {
         <Image
           src={Feature1}
           alt="feature 1 image"
-          className="pt-[24px] sm:hidden"
+          className="pt-[24px]   sm:hidden"
         />
         <p className="py-[24px] text-[#36485C] lg:text-[18px]">
           Stay on top of things and revamp your work process with our

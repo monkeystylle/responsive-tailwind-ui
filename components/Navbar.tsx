@@ -15,10 +15,7 @@ const navLinks = [
 
 const Navbar = (props: Props) => {
   return (
-    <nav
-      style={{ borderBottom: '1px solid tomato' }}
-      className="flex w-full items-center justify-between py-[16px] px-[20px] lg:container lg:mx-auto "
-    >
+    <nav className="flex w-full items-center justify-between py-[16px] px-[20px] lg:container lg:mx-auto ">
       {/* logo and navlinks */}
       <div className="flex items-center">
         <Image src={Logo} alt="logo" />

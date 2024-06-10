@@ -5,7 +5,7 @@ type Props = {};
 
 const PricingBusiness = (props: Props) => {
   return (
-    <div className="w-full rounded-[8px] bg-[#4328EB] p-8 flex flex-col shadow-md">
+    <div className="w-full md:w-[60%] xl:w-full md:self-center xl:self-stretch  rounded-[8px] bg-[#4328EB] p-8 flex flex-col shadow-md">
       <div className="mb-auto">
         <h3 className="font-medium text-white text-[18px] lg:text-xl">
           Business
@@ -18,7 +18,7 @@ const PricingBusiness = (props: Props) => {
           500$<span className="text-[#F4F8FA]">/mo</span>
         </h2>
 
-        <ul className="flex flex-col gap-y-2 pt-4 text-[#F4F8FA]  ">
+        <ul className="flex flex-col gap-y-2 pt-4 text-[#F4F8FA] text-sm xl:text-base ">
           <li className="flex items-center gap-x-2">
             <span>
               <Image src={Check} alt="included" />

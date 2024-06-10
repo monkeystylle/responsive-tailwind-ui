@@ -5,7 +5,7 @@ type Props = {};
 
 const PricingFreeTrial = (props: Props) => {
   return (
-    <div className="w-full rounded-[8px] bg-[#F5F4FF] p-8 flex flex-col lg:justify-between shadow-md">
+    <div className="w-full md:w-[60%] xl:w-full md:self-center xl:self-stretch   rounded-[8px] bg-[#F5F4FF] p-8 flex flex-col lg:justify-between shadow-md">
       <div>
         <h3 className="font-medium text-[#4328EB] text-[18px] lg:text-xl">
           Free Trial
@@ -18,7 +18,7 @@ const PricingFreeTrial = (props: Props) => {
           0$<span className="text-[#5F7896]">/mo</span>
         </h2>
 
-        <ul className="flex flex-col gap-y-2 pt-4 text-[#5F7896]">
+        <ul className="flex flex-col gap-y-2 pt-4 text-[#5F7896] text-sm xl:text-base  ">
           <li className="flex items-center gap-x-2">
             <span>
               <Image src={Check} alt="included" />

@@ -15,17 +15,17 @@ const Hero = (props: Props) => {
   return (
     <div className="pt-4 lg:pt-10">
       <div className="px-[20px] lg:px-[280px]">
-        <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#172026] lg:text-[64px] lg:leading-[72px]">
+        <h1 className="text-center text-2xl  font-medium text-[#172026] lg:text-4xl xl:text-[64px] xl:leading-[72px]">
           Start monitoring your website like a pro
         </h1>
-        <p className="text-center pt-6 text-[#36485C] lg:text-[18px] lg:leading-7">
+        <p className="text-center pt-6 text-[#36485C] text-sm lg:text-[18px] lg:leading-7">
           Get a birds eye view with our customizable dashboard. Stay on top of
           things! Revamp your work process with our game-changing feature. Boost
           productivity and efficiency!
         </p>
 
         {/* buttons */}
-        <div className="flex w-full pt-8 justify-center gap-x-6 ">
+        <div className="flex w-full pt-8 pb-8 justify-center gap-x-6 text-xs md:text-sm lg:text-base ">
           <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
             Try for free
           </button>
@@ -45,6 +45,7 @@ const Hero = (props: Props) => {
           src={Gradient}
           alt="gradient"
           className="min-h-[500px]  w-full object-cover lg:h-auto"
+          priority
         />
 
         {/* hero image */}
@@ -52,7 +53,7 @@ const Hero = (props: Props) => {
           <Image
             src={HeroImage}
             alt="hero image"
-            className="-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%]  "
+            className="-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:h-[550px]  xl:-mb-28 xl:h-auto xl:w-[70%]  "
           />
           <div className="flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between lg:px-20">
             <p className="text-white text-center lg:text-[18px]">
